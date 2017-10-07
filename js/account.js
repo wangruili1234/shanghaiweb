@@ -7,4 +7,12 @@ window.onload = function(){
 
         return false;
     }
+
+
+    var btnRegister = document.getElementById("register-btn");
+    btnRegister.onclick = function(){
+        //....注册功能完成了
+        alert("注册成功");
+        return false;
+    }
 }
